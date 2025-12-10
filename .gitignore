@@ -1,0 +1,48 @@
+# ========================
+# Archivos de Sistema Operativo
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Entornos Virtuales y Python (Backend)
+# ========================
+# Carpeta del entorno virtual (no la subimos al repo)
+.venv/
+venv/
+env/
+
+# Archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de base de datos local (SQLite o instancias)
+*.sqlite
+*.db
+instance/
+
+# ========================
+# Node.js y Frontend (Astro/React)
+# ========================
+# Dependencias grandes (siempre ignorar)
+node_modules/
+
+# Carpeta de compilación/producción
+dist/
+build/
+.astro/
+
+# Logs y Cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+
+# ========================
+# Archivos Sensibles y Credenciales
+# ========================
+# Variables de entorno
+.env
+.env.*
